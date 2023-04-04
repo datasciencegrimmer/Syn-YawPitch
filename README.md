@@ -5,7 +5,7 @@ This repository includes the official code to the paper "Pose Impact Estimation 
 
 ## Syn-YawPitch Generation
 
-To reconstruct our proposed Syn-YawPitch database, we provide a numpy array of seeds [selected_seeds.npy](./SYP-Generation/selected_seeds.npy) (Syn-YawPitch/selected_seeds.npy) that generates the same facial images when given to the EG3D generator. The seeds are selected to draw 1000 latent vectors that keep a minimum distance in the latent space to each other in order to prevent unnatural look-alike rates across the generated non-mated samples. 
+To reconstruct our proposed Syn-YawPitch database, we provide a numpy array of seeds ([selected_seeds.npy](./SYP-Generation/selected_seeds.npy)) that generates the same facial images when given to the EG3D generator. The seeds are selected to draw $1,000$ latent vectors that keep a minimum distance in the latent space to each other in order to prevent unnatural look-alike rates across the generated non-mated samples. 
 
 **NOTE** Our Syn-YawPitch DB builds upon the EG3D face image generator and 6DRepNet pose estimator: In order to run the provided script given here, make sure to install their requirements too:
 
@@ -14,12 +14,12 @@ To reconstruct our proposed Syn-YawPitch database, we provide a numpy array of s
 
 ## Pose Quality Estimation
 
-To use our proposed SYP-Lasso PQE, an example script is given under inference/SYP-lasso-inference.py. Given a facial image, the SYP-Lasso regression model first requires to estimate the head poses (yaw and pitch angle), from which it estimates the pose quality in the range between 0 to 100 following the specifications of ISO/IEC WD5 29794-5. We recommend the usage of 6DRepNet (https://github.com/thohemp/6drepnet) to estimate the head poses, as it has proven well-compatible with our SYP-Lasso regression model according to our evaluation results. 
+To use our proposed SYP-Lasso PQE, an example script is given under ([SYP-lasso-reference.npy](./inference/SYP-lasso-inference.py)) . Given a facial image, the SYP-Lasso regression model first requires to estimate the head poses (yaw and pitch angle), from which it estimates the pose quality in the range between 0 to 100 following the specifications of $ISO/IEC WD5 29794-5$. We recommend the usage of 6DRepNet (https://github.com/thohemp/6drepnet) to estimate the head poses, as it has proven well-compatible with our SYP-Lasso regression model according to our evaluation results. 
 
 
 ### Baseline Quality Estimation
 
-Alongside our proposed SYP-Lasso regression model, we provide additional inference scripts used as baseline pose estimators in our paper: bPQE (inference/bPQE-inference.py) and ISO/IEC WD5 29794-5 related PQE (inference/iso-related-inference.py).
+Alongside our proposed SYP-Lasso regression model, we provide additional inference scripts used as baseline pose estimators in our paper: bPQE ([bPQE-reference.npy](./inference/bPQE-inference.py)) and ISO/IEC WD5 29794-5 related PQE ([iso-related-reference.npy](./inference/iso-related-inference.py)).
 
 
 ## Citation
