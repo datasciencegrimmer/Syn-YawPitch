@@ -24,7 +24,7 @@ Alongside our proposed SYP-Lasso regression model, we provide additional inferen
 
 ## Citation
 
-If you our code or pre-trained models, please reference the following work: 
+If you use our code or pre-trained models, please reference the following work: 
 
 @article{grimmer2023pose,
   title={Pose Impact Estimation on Face Recognition using 3D-Aware Synthetic Data with Application to Quality Assessment},
