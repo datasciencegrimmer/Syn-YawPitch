@@ -14,7 +14,7 @@ To reconstruct our proposed Syn-YawPitch database, we provide a numpy array of s
 
 ## Pose Quality Estimation
 
-To use our proposed SYP-Lasso PQE, an example script is given under inference/SYP-lasso-inference.py. Given a facial image, the SYP-Lasso regression model first requires to estimate the head poses (yaw and pitch angle), from which it estimates the pose quality in the range between 0 to 100 following the specifications of ISO/IEC WD5 29794-5. We recommend the usage of 6drepnet (https://github.com/thohemp/6drepnet) to estimate the head poses, as it has proven to be well-compatible with SYP-Lasso given the evaluation results in our paper. 
+To use our proposed SYP-Lasso PQE, an example script is given under inference/SYP-lasso-inference.py. Given a facial image, the SYP-Lasso regression model first requires to estimate the head poses (yaw and pitch angle), from which it estimates the pose quality in the range between 0 to 100 following the specifications of ISO/IEC WD5 29794-5. We recommend the usage of 6DRepNet (https://github.com/thohemp/6drepnet) to estimate the head poses, as it has proven well-compatible with our SYP-Lasso regression model according to our evaluation results. 
 
 
 ### Baseline Quality Estimation
