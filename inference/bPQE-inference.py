@@ -1,6 +1,5 @@
 import pickle as pkl
 import numpy as np
-from sklearn.preprocessing import MinMaxScaler
 
     
 def run_example_bPQE():
