@@ -26,18 +26,21 @@ Alongside our proposed SYP-Lasso regression model, we provide additional inferen
 
 If you use our code or pre-trained models, please reference the following work: 
 
+```
 @article{grimmer2023pose,
   title={Pose Impact Estimation on Face Recognition using 3D-Aware Synthetic Data with Application to Quality Assessment},
   author={M. Grimmer and C. Rathgeb and C. Busch},
   journal={arXiv preprint arXiv:2303.00491},
   year={2023}
 }
+```
 
 
 ## Special Credicts
 
-We highlight the great work of EG3D and 6DRepNet: 
+We would like to acknowledge the great work of EG3D and 6DRepNet:
 
+```
 @inproceedings{chan2022efficient,
   title={Efficient geometry-aware 3D generative adversarial networks},
   author={E.R. Chan and C.Z. Lin and M.A. Chan and K. Nagano and B. Pan and S. De Mello and O. Gallo and L.J. Guibas and J. Tremblay and S. Khamis and others},
@@ -54,6 +57,7 @@ We highlight the great work of EG3D and 6DRepNet:
   year={2022},
   organization={IEEE}
 }
+```
 
 
 
