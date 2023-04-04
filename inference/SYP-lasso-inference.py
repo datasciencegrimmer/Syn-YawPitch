@@ -54,7 +54,7 @@ def get_neg_pos_components(yaw, pitch):
     return(negyaw, posyaw, negpitch, pospitch)
 
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     
     run_example_SYP_lasso_PQE()
  
