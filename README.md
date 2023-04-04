@@ -1,6 +1,6 @@
 # Syn-YawPitch
 
-This repository includes the official code to the paper "Pose Impact Estimation on Face Recognition using 3D-Aware Synthetic Data with Application to Quality Assessment". We provide our scripts for generating our synthetic Syn-YawPi database together with our best performing SYP-Lasso pose quality estimators (PQEs) - trained on four different face recognition systems (FRSs): ArcFace, MagFace, CurricularFace, and the COTS FRS.
+This repository includes the official code to the paper "Pose Impact Estimation on Face Recognition using 3D-Aware Synthetic Data with Application to Quality Assessment". We provide our scripts for generating our synthetic Syn-YawPi database together with our best performing SYP-Lasso pose quality estimators (PQEs) - trained on four different face recognition systems (FRSs): ArcFace, MagFace, CurricularFace, and a COTS FRS.
 
 
 ## Syn-YawPitch Generation
