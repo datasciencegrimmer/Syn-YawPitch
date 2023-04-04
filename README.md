@@ -7,7 +7,7 @@ This repository includes the official code to the paper "Pose Impact Estimation 
 
 To reconstruct our proposed Syn-YawPitch database, we provide a numpy array of seeds (Syn-YawPitch/selected_seeds.npy) that generates the same facial images when given to the EG3D generator. The seeds are selected to draw 1000 latent vectors that keep a minimum distance in the latent space to each other in order to prevent unnatural look-alike rates across the generated non-mated samples. 
 
-NOTE: Our Syn-YawPitch DB builds upon the EG3D face image generator and 6DRepNet pose estimator: In order to run the provided script given here, make sure to install their requirements too:
+**NOTE** Our Syn-YawPitch DB builds upon the EG3D face image generator and 6DRepNet pose estimator: In order to run the provided script given here, make sure to install their requirements too:
 
  - https://github.com/NVlabs/eg3d
  - https://github.com/thohemp/6drepnet
