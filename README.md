@@ -1,5 +1,9 @@
 # Syn-YawPitch
 
+<p align="center">
+  <img src="./EG3D-examples.JPG" alt="Teaser image" width="400"/>
+</p>
+
 This repository includes the official code to the paper "Pose Impact Estimation on Face Recognition using 3D-Aware Synthetic Data with Application to Quality Assessment". We provide our scripts for generating our synthetic Syn-YawPi database together with our best performing SYP-Lasso pose quality estimators (PQEs) - trained on four different face recognition systems (FRSs): ArcFace, MagFace, CurricularFace, and a COTS FRS.
 
 
@@ -13,6 +17,10 @@ To reconstruct our proposed Syn-YawPitch database, we provide a numpy array of s
  - https://github.com/thohemp/6drepnet
 
 ## Pose Quality Estimation
+
+<p align="center">
+  <img src="./EDC-curves.JPG" alt="Teaser image" width="600"/>
+</p>
 
 To use our proposed SYP-Lasso PQE, an example script is given under ([SYP-lasso-reference.npy](./inference/SYP-lasso-inference.py)) . Given a facial image, the SYP-Lasso regression model first requires to estimate the head poses (yaw and pitch angle), from which it estimates the pose quality in the range between 0 to 100 following the specifications of $ISO/IEC WD5 29794-5$. We recommend the usage of 6DRepNet (https://github.com/thohemp/6drepnet) to estimate the head poses, as it has proven well-compatible with our SYP-Lasso regression model according to our evaluation results. 
 
